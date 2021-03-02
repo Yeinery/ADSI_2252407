@@ -1,0 +1,32 @@
+h1,h2  {  
+    text-align: center; 
+   }
+   img {
+       margin:  0 auto 0 auto;
+       display: block;
+   }
+   p {
+   
+   text-align: center; 
+}
+h2.font-cinzel {
+    font-family: 'Cinzel', serif;
+}
+
+h2.font-Shadows {
+    font-family:'Shadows Into Light', Arial, Helvetica, sans-serif 
+}
+
+/* shadows-into-light-regular - latin */
+@font-face {
+    font-family: 'Shadows Into Light';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/shadows-into-light-v10-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/shadows-into-light-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/shadows-into-light-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/shadows-into-light-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/shadows-into-light-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/shadows-into-light-v10-latin-regular.svg#ShadowsIntoLight') format('svg'); /* Legacy iOS */
+  }
