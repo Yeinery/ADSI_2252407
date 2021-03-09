@@ -1,5 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
 h1,h2  {  
-    text-align: center; 
+text-align: center;
+    font-style: italic;
+   }
+
+   .header{
+    width: 100%;
+    height: 100px;
+    background-color: lightgray;
+    position: fixed;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+padding-top: 100px;
+}
+   .linea-abajo {
+    text-decoration-line: underline;
+
    }
    img {
        margin:  0 auto 0 auto;
@@ -7,14 +33,42 @@ h1,h2  {
    }
    p {
    
-   text-align: center; 
+   text-align: center;
+ 
 }
+
 h2.font-cinzel {
     font-family: 'Cinzel', serif;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: bold;
 }
 
 h2.font-Shadows {
     font-family:'Shadows Into Light', Arial, Helvetica, sans-serif 
+    
+
+}
+
+.fuente-roboto {
+    font-family: 'Roboto', sans-serif;
+    font-size: 5em;
+}
+
+.fuente-negrita {
+    font-weight: bold;
+}
+
+.fuente-italica {
+    font-size: 32pt;
+    font-style: italic;
+}
+
+span.resaltado {
+    font-size: 3em;
+    color: lightgreen;
+    font-weight: bold;
+    font-family: 'roboto', serif
 }
 
 /* shadows-into-light-regular - latin */
