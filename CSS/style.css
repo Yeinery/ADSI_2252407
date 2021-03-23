@@ -64,13 +64,18 @@ h2.font-Shadows {
     font-style: italic;
 }
 
+
 span.resaltado {
     font-size: 3em;
     color: lightgreen;
     font-weight: bold;
     font-family: 'roboto', serif
 }
-
+.enlace {
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
 /* shadows-into-light-regular - latin */
 @font-face {
     font-family: 'Shadows Into Light';
