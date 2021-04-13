@@ -2,25 +2,25 @@
     padding: 0px;
     margin: 0px;
 }
-h1,h2  {  
+body{  
     text-align: center;
     font-style: italic;
    }
 
 .header{
     width: 100%;
-    height: 100px;
+    height: 80px;
     background-color: lightgray;
-    position: fixed;
+    position: inherit;
     font-size: 2em;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
 }
 .container{
     width: 100%;
     height: 100%;
     background-color: white;
-    padding-top: 100px;
+    padding-top: 0px;
 }
 
 .linea-abajo {
@@ -29,18 +29,28 @@ h1,h2  {
    
 img {
     margin:  0 auto 0 auto;
-    display: block;
+    display: inline-block;
+    position: inherit;
 }
 
+.nombres{
+    font-style: normal;
+    font-size: 1em;
+    color: black;
+    line-height: 2em;
+}
+div.diseño{
+    background-color:  darkgray;
+    padding: 4px;
+    display: inline-block;
+    border-radius: 7px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
 p {
     text-align: center;
-}
-
-h2.font-cinzel {
-    font-family: 'Cinzel', serif;
-    font-size: 1.5em;
-    font-style: normal;
-    font-weight: bold;
 }
 
 h2.font-Shadows {
@@ -72,94 +82,6 @@ span.resaltado {
     text-decoration: none;
     font-weight: bolder;
     font-size: 1.5em;
-}
-.espaciado-palabra{
-    font-size: 2em;
-    word-spacing: 1.2em;
-    line-height: 2em;
-}
-
-.espaciado-letra{
-    letter-spacing: 1em;
-    font-size: 1.5em;
-}
-
-.alineacion-izquierda{
-    text-align: left;
-    font-size: 1.5em;
-}
-
-.alineacion-derecha{
-    text-align: right;
-    font-size: 1.5em; 
-}
-
-.alineacion-centrada{
-    text-align: center;
-    font-size: 1.5em;
-}
-
-.alineacion-justificada{
-    text-align: justify;
-    font-size: 1.5em;
-}
-
-p.indentado{
-    text-align: justify;
-    text-indent: 4em;
-    font-size: 1.5em;
-}
-.letra{
-    font-size: 4em;
-    font-weight: 900;
-}
-
-blockquote{
-    font-size: 1.5em;
-    text-align: center;
-    font-style: italic;
-    color: lightskyblue;
-}
-
-.prueba-margenes{
-    width: 400px;
-    height: 400px;
-    display: inline-block;
-    background: mediumslateblue;
-    margin: 50px 50px;
-}
-
-.contenedor-principal{
-    width: 90%;
-    display: inline-block;
-    margin: 0 auto;
-}
-
-.mi-padding1{
-    background-color: cadetblue;
-    width: 200px;
-    display: inline-block;
-    margin: 50px 50px 50px 50px;
-    padding: 30px;
-    border: solid 3px black;
-}
-
-.mi-padding2{
-    background-color: lightcoral;
-    width: 200px;
-    display: inline-block;
-    margin: 50px 50px 50px 50px;
-    padding: 30px;
-    border: dotted black;
-}
-
-.mi-padding3{
-    background-color: thistle;
-    width: 200px;
-    display: inline-block;
-    margin: 50px 50px 50px 50px;
-    padding: 30px;
-    border: double black;
 }
 
 /* shadows-into-light-regular - latin */
