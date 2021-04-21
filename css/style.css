@@ -83,6 +83,13 @@ span.resaltado {
     font-weight: bolder;
     font-size: 1.5em;
 }
+.enlace2{
+    text-decoration: solid;
+    font-weight: 400;
+    font-size: 1em;
+    color: darkslategray;
+    font-style: normal;
+}
 
 /* shadows-into-light-regular - latin */
 @font-face {
@@ -98,9 +105,14 @@ span.resaltado {
          url('../fonts/shadows-into-light-v10-latin-regular.svg#ShadowsIntoLight') format('svg'); /* Legacy iOS */
   }
 
-
-.icon-users:before { content: '\e800'; } /* '' */
-.icon-menu:before { content: '\f0c9'; } /* '' */
+.icon-user:before { content: '\e800'; } /* '' */
+.icon-home:before { content: '\e801'; } /* '' */
+.icon-basket:before { content: '\e802'; } /* '' */
+.icon-list:before { content: '\e803'; } /* '' */
+.icon-search:before { content: '\e804'; } /* '' */
+.icon-thumbs-up-alt:before { content: '\f164'; } /* '' */
+.icon-thumbs-down-alt:before { content: '\f165'; } /* '' */
+.icon-facebook-official:before { content: '\f230'; } /* '' */
+.icon-whatsapp:before { content: '\f232'; } /* '' */
 .icon-twitter:before { content: '\f309'; } /* '' */
-.icon-facebook-circled:before { content: '\f30d'; } /* '' */
-.icon-instagram-filled:before { content: '\f31f'; } /* '' */
+.icon-instagram:before { content: '\f32d'; } /* '' */
