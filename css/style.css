@@ -104,7 +104,6 @@ span.resaltado {
          url('../fonts/shadows-into-light-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/shadows-into-light-v10-latin-regular.svg#ShadowsIntoLight') format('svg'); /* Legacy iOS */
   }
-
 .icon-user:before { content: '\e800'; } /* '' */
 .icon-home:before { content: '\e801'; } /* '' */
 .icon-basket:before { content: '\e802'; } /* '' */
