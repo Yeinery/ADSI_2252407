@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/citas.css">
+    
+    <title>Citas médicas</title>
+</head>
+<body>
+    <ul class="lista">
+        <li class="menu"><a href="index.html">Inicio</a></li>
+        <li class="menu">Nuestra Empresa</li>
+        <li class="menu">Colaboradores</li>
+        <li class="menu"><a href="tabla.html" target="_blank"> Productos</a></li>
+        <li class="menu">Acerca de</li>
+        <li class="menu"><a href="contactenos.html" target="_blank">Contáctenos</a></li>
+        <li class="menu"><a href="citas.html"> Citas Médicas</a></li>
+     </ul>
+     <form action="registrar-info.php" method="get">
+         <fieldset>
+            <legend>Formulario de citas médicas.</legend><br>
+
+            <input type="text" name="nombres" placeholder="Ingrese sus nombres" class="input-width"> <br> <br>
+            
+            <input type="text" name="apellidos" placeholder="Ingrese sus apellidos" class="input-width"><br><br>
+
+                      Tipo de documento. <br>
+                     <select name="Tipo de documento" class="input-width">
+                         <option value="Cédula de ciudadanía">Cédula de ciudadanía</option>
+                         <option value="Tarjeta de Identidad">Tarjeta de Identidad</option>
+                         <option value="Registro Civil">Registro Civil</option>
+                         <option value="Pasaporte">Pasaporte</option>
+                         <option value="Cedula de extranjería">Cedula de extranjería</option>
+                     </select> <br> <br>
+
+                     Ingrese el número de documento<br>
+                     <input type="text" name="numero" class="input-width"> <br> <br>
+
+                     Seleccione su(s) médico(s) de preferencia. <br><br>
+                     <input type="checkbox" name="medico" value="Thug Behram">Thug Behram<br>
+                     <input type="checkbox" name="medico" value="Harold Shipman">Harold Shipman<br>
+                     <input type="checkbox" name="medico" value="Luis Alfredo Garavito">Luis Alfredo Garavito<br>
+                     <input type="checkbox" name="medico" value="Gilles de Rais">Gilles de Rais<br>
+                     <input type="checkbox" name="medico" value="Andréi Chikatilo">Andréi Chikatilo<br>
+                     <input type="checkbox" name="medico" value="Luis Gregorio Ramírez Maestre">Luis Gregorio Ramírez Maestre<br><br>
+
+                     Horarios disponibles para la cita médica <br><br>
+                     <input type="checkbox" name="Horarios" value="Horario-Mañana">Horario-Mañana<br>
+                     <input type="checkbox" name="Horarios" value="Horario-Tarde">Horario-Tarde<br><br>
+
+                     <input type="submit" value="Enviar">
+
+                     
+
+         </fieldset>
+     </form> <br><br>
+
+     <table>
+        <tr>
+             <th class="encabezado">Días disponibles</th>
+             <th class="encabezado">Horas disponibles</th>
+             <th class="encabezado">Médico disponible</th>
+             <th class="encabezado">IPS</th>
+        </tr>
+        <tr>
+             <td>13-06-2021</td>
+             <td>14:30 pm</td>
+             <td>Thug Behram</td>
+             <td>Bruselas</td>
+        </tr>
+        <tr>
+            <td>23-08-2021</td>
+            <td>14:30 pm</td>
+            <td>Harold Shipman</td>
+            <td>Palestina</td>
+        </tr>
+        <tr>
+            <td>24-08-2021</td>
+            <td>14:30 pm</td>
+            <td>Luis Alfredo Garavito</td>
+            <td>La plata</td>
+        </tr>
+        <tr>
+            <td>15-09-2021</td>
+            <td>13:30 pm</td>
+            <td>Gilles de Rais</td>
+            <td>Elías</td>
+        </tr>
+        <tr>
+            <td>25-09-2021</td>
+            <td>13:30 pm</td>
+            <td>Andréi Chikatilo</td>
+            <td>Oporapa</td>
+        </tr>
+        <tr>
+            <td>26-10-2021</td>
+            <td>14:30 pm</td>
+            <td>Luis Gregorio Ramírez </td>
+            <td>Pitalito</td>
+        </tr>
+
+     </table> <br><br>
+</body>
+</html>

@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.contenedor-principal{
+    margin-top: 20px;
+    
+    height: 700px;
+    background-color: slategray;
+    
+}
+.contenedor1{
+    background-color: thistle;
+    width: 42%;
+    height: 600px;
+    display: inline-block;
+    margin-left: 5%;
+}
+.contenedor2{
+    background-color: salmon;
+    width: 42%;
+    height: 600px;
+    display: inline-block;
+
+}

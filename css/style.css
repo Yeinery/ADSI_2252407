@@ -21,13 +21,12 @@ body{
     text-align: right;
     background: cadetblue;
     color: white;
-    padding: 17px;
+    padding: 10px;
     background-position: top;
 }
 .menu{
     display: inline;
     margin-left: 45px;
-
 }
 a{
     text-decoration: none;
