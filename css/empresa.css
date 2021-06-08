@@ -15,6 +15,7 @@
     height: 600px;
     display: inline-block;
     vertical-align: top;
+    
 }
 .content-2{
     background: powderblue;
@@ -22,6 +23,7 @@
     height: 600px;
     display: inline-block;
     vertical-align: top;
+    margin-left: 10px;
 }
 .content-3{
     background:  mistyrose;
@@ -29,6 +31,7 @@
     height: 600px;
     display: inline-block;
     vertical-align: top;
+    margin-left: 10px;
 }
 .content-4{
     background:  powderblue;
@@ -36,6 +39,7 @@
     height: 600px;
     display: inline-block;
     vertical-align: top;
+    margin-left: 10px;
 }
 .mision{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
