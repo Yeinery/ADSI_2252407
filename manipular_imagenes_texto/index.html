@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Manipular imágenes</title>
+</head>
+<body>
+    <!-- Cargar una imagen y que al pasar el mouse por encima de la imagen me genere un mensaje de alerta -->
+    <!-- 1. Que la imagen tenga un Id y utilizar el elemento onmouseover() -->
+    <!-- 2. Llamar una fución desde html -->
+    <!-- 3. En la función ejecutar un alert -->
+    
+
+    <!-- <img id="imagen1" src="img/450_1000.jpg" alt="ensayo" onmouseover="movimiento();"> -->
+    
+    <!-- Cargar una segunda imagen y que al pasar el mouse esta desaparezca -->
+    <!-- <img id="imagen2" src="img/4888520.jpg-c_310_420_51_36-f_jpg-q_x-xxyxx.jpg" alt="imagen2" onmouseover="volverInvisible();"> -->
+<!-- 
+    <img id="idDelHermano" src="img/450_1000 (1).jpg" alt="imagen3" onmouseover="cambiarImagen();" onmouseleave= "retornarImagen();">
+    <img id="second_movie" src="img/4888520.jpg-c_310_420_51_36-f_jpg-q_x-xxyxx.jpg" alt="pelicula"> -->
+    
+  <img id="imagen_principal" src="img/grande.jpg" onmouseover="intercambiar();"><br>
+  <img id="imagen2" src="img/4888520.jpg-c_310_420_51_36-f_jpg-q_x-xxyxx.jpg" alt="" onmouseover="interConArg(id, 'img/grande2')">
+
+  <img id="imagen3" src="img/450_1000.jpg" onmouseover="intercambiar();">
+  <img id="imagen4" src="img/let.jpeg" alt="" onmouseover="interConArg(id, 'img/grande.jpg')">
+  
+    
+</body> 
+</html>

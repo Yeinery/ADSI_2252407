@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 20px;
+}
+.container_flex1 {
+    display: flex;
+    background-color: rgb(71, 192, 192);
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+}
+.item_flex{
+    background-color: rgb(147, 115, 206);
+    color: white;
+    font-size: 1.5em;
+    width: 200px;
+   height: 200px;
+}
+.item_1, .item_5, .item_8{
+    width: 150px;
+}
+.item_2, .item_4, .item_7{
+    width: 90px;
+}
+.item_3, .item_6, .item_9{
+    width: 200px;
+}

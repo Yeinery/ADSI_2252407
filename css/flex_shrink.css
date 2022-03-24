@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container_flex1{
+    display: flex;
+    background-color: rgb(71, 192, 192);
+    /*flex-flow: row wrap;*/
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+}
+.item_flex{
+    background-color: rgb(147, 115, 206);
+    color: white;
+    font-size: 1.5em;
+    width: 250px;
+    height: 250px;
+}
+.item_1{
+   flex-shrink: 4;
+}
+.item_2{
+    flex-shrink: 1;
+}
+.item_3{
+    flex-shrink: 2;
+}
+.item_4{
+    flex-shrink: 1;
+}
+.item_5{
+    flex-shrink: 1;
+}
+.item_6{
+    flex-shrink: 1;
+}

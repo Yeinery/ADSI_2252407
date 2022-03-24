@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 1.5em;
+    text-align: right;
+    color: rgba(255,255,255,.7);
+    margin-top: 40px 40px 0 0;
+   
+}
+body{
+    background-color: #252528;
+    color: rgba(255,255,255,.4);
+    padding: 0 1em;
+}
+nav{
+    background-color: rgba(0,0,0,.8);
+    position: absolute;
+    height: 100%;
+    padding-right: 2em;
+    padding-top: 3em;
+    z-index: 10;
+    left: -18em;
+    transition: all .5s;
+
+}
+.menu{
+    list-style: none;
+    margin: 0 auto;
+    line-height: 42px;
+    margin: 2em auto;
+    width: 16em;
+    padding-left: .1em;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding-left: 1.5em;
+    width: 100%;
+    font-size: 1.3em;
+}
+.menu li{
+    box-shadow: 3px 0 rgba(255,255,255,.2) inset;
+    padding-left: .8em;
+    margin-bottom: 5px;
+    transition: all .5s;
+}
+.menu li:hover{
+    box-shadow: 15em 0 rgba(255,255,255,.2) inset;
+}
+.menu a:hover{
+    margin-left: 1em;
+}
+.fas, .fab {
+    color: white;
+    font-size: 1.5em;
+    padding-right: .3em;
+}
+.fa-bars{
+    position: absolute;
+    color: white;
+    z-index: 20;
+}
+.icono_menu{
+    position: absolute;
+    z-index: 20;
+    top: 20px;
+    left: 20px;
+}
+nav.mostrar{
+    left: 0;
+}
+article{
+    font-size: 1.2em;
+    line-height: 1.5em;
+    padding: .5em 3.5em;
+    text-align: justify;
+}
+footer{
+    border-top: 2px solid rgba(255,255,255,.1);
+    text-align: right;
+}

@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.cuadro1{
+    background-color: rgb(176, 125, 224);
+    margin-top: 0;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
+.cuadro2{
+    background-color: rgb(201, 110, 110);
+    top: 0;
+    width: 300px;
+    height: 300px;
+    position: absolute; 
+    right: 0;
+}
+.cuadro3{
+    background-color: rgb(148, 222, 224);
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
+.cuadro4{
+    background-color: rgb(36, 32, 30);
+    bottom: 0;
+    right:  0;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
+.cuadro5{
+    background-color: lightpink;
+    width: 300px;
+    height: 300px;
+    top: 100%;
+    left: 100%;
+   position: absolute;
+}

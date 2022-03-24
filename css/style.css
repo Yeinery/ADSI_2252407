@@ -1,0 +1,172 @@
+*{
+    /*padding: 0px;*/
+    margin: 0px;
+}
+body{  
+    text-align: center;
+    font-style: italic;
+   }
+
+.header1{
+    width: 100%;
+    height: 80px;
+    background-color: lightgray;
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    position: fixed;
+}
+.header2{
+    width: 100%;
+    height: 80px;
+    background-color: lightgray;
+    visibility: hidden;
+}
+.lista1{
+    font-size: 1.8em;
+    text-align: right;
+    width: 99%;
+    background: cadetblue;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    margin-top: 80px;
+    
+}
+.lista2{
+    font-size: 1.8em;
+    text-align: right;
+    background: cadetblue;
+    color: white;
+    padding: 10px;
+    background-position: top;
+    visibility: hidden;
+}
+.logo{
+    margin-left: 30px;
+}
+.menu{
+    display: inline;
+    margin-left: 45px;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.texto{
+    font-size: 1.2em;
+    
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: lightgray;
+    padding-top: 0px;
+}
+
+.linea-abajo {
+    text-decoration-line: underline;
+}
+   
+img {
+    margin:  0 auto 0 auto;
+    display: inline-block;
+    position: inherit;
+}
+
+.nombres{
+    font-style: normal;
+    font-size: 1em;
+    color: black;
+    line-height: 2em;
+}
+div.diseño{
+    background-color: grey;
+    padding: 4px;
+    display: inline-block;
+    border-radius: 7px;
+    margin: 0 auto;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+p {
+    text-align: center;
+    font-style: inherit;
+}
+
+h2.font-Shadows {
+    font-family:'Shadows Into Light', Arial, Helvetica, sans-serif;
+}
+
+.fuente-roboto {
+    font-family: 'Roboto', sans-serif;
+    font-size: 5em;
+}
+
+.fuente-negrita {
+    font-weight: bold;
+}
+
+.fuente-italica {
+    font-size: 32pt;
+    font-style: italic;
+}
+
+span.resaltado {
+    font-size: 1em;
+    color: cadetblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.enlace {
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+.enlace2{
+    text-decoration: solid;
+    font-weight: 400;
+    font-size: 1em;
+    color: darkslategray;
+    font-style: normal;
+}
+nav  ul {
+    list-style: none;
+    padding: 0;
+    display: table;
+    position: absolute;
+    width: 100%;
+}
+nav > ul > li > ul > li{
+    float: left;
+    width: 320px;
+    line-height: 70px;
+    font-size: 1em;
+}
+/* shadows-into-light-regular - latin */
+@font-face {
+    font-family: 'Shadows Into Light';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/shadows-into-light-v10-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/shadows-into-light-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/shadows-into-light-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/shadows-into-light-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/shadows-into-light-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/shadows-into-light-v10-latin-regular.svg#ShadowsIntoLight') format('svg'); /* Legacy iOS */
+  }
+.icon-user:before { content: '\e800'; } /* '' */
+.icon-home:before { content: '\e801'; } /* '' */
+.icon-basket:before { content: '\e802'; } /* '' */
+.icon-list:before { content: '\e803'; } /* '' */
+.icon-search:before { content: '\e804'; } /* '' */
+.icon-thumbs-up-alt:before { content: '\f164'; } /* '' */
+.icon-thumbs-down-alt:before { content: '\f165'; } /* '' */
+.icon-facebook-official:before { content: '\f230'; } /* '' */
+.icon-whatsapp:before { content: '\f232'; } /* '' */
+.icon-twitter:before { content: '\f309'; } /* '' */
+.icon-instagram:before { content: '\f32d'; } /* '' */

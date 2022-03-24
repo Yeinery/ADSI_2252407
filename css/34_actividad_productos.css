@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: rgba(230, 230, 17, 0.836);
+    padding: 10px;
+    border-radius: 9px;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-weight: 200;
+    font-size: 1.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    margin-bottom: 20px;
+}
+button{
+    border-radius: 8px;
+    padding: 7px;
+    border: none;
+    width: 30px;
+    margin: 10px;
+    margin-left: 20px;
+}
+input{
+    width: 30px;
+    border: none;
+    text-align: center;
+}
+.page-content{
+    /* display: grid; */
+    width: 500px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 20px;
+    height: 370px;
+}
+.texto{
+    width: 300px;
+    float: right;
+    margin-top: 0;
+    text-align: justify;
+}
+img{
+    margin-left: 20px;
+    float: left;
+}
+.boton{
+    width: 150px;
+    margin-left: 20px;
+    border: 1px solid black;
+    background: none;
+    cursor: pointer;
+}
+.valorUni{
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+.boton:hover{
+    background: rgb(241, 241, 241);
+}
+#aumentar, #disminuir{
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1em;
+}
+#cantidad{
+    color: brown;
+}
+

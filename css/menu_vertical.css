@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#nav-var{
+    display: inline-block;
+}
+ul{
+    margin: 15px;
+    margin-top: 40px;
+    font-size: 1.2em;
+    width: 270px;
+}
+.menu_vertical{
+    background-color: darkslategrey;
+    color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.menu_vertical:hover{
+    background-color:rgb(105, 145, 145);
+    font-size: 1.1em;
+}

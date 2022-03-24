@@ -1,0 +1,36 @@
+.general_box{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+div{
+    float: left;
+    position: static;
+}
+.box_main_1 > div{
+    background-color: goldenrod;
+}
+.box_sub_padre{
+    margin-right: 310px;
+}
+.box_sub_hijo{
+    margin-left: 310px;
+    margin-top: -20px;
+}
+.box_main_3 > div{
+    background-color: darkcyan;
+}
+h2{
+    clear: both;
+}
+.box_gen_1 + .box_gen_2{
+    background: darkcyan;
+}
+.box_gen_1_h ~ .box_gen_2_h{
+    background: darkcyan;
+}
+.box_main_7>[class^="box_"]{
+    background: lightcoral;
+}
+

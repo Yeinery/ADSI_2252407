@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/26_eventos_fields.js"></script>
+    <title>Eventos Fields</title>
+</head>
+<body>
+    Email <br>
+    <input type="text" size="30"
+    onfocus="this.style.backgroundColor='pink'"
+    onblur="this.style.backgroundColor='white'">
+
+    <h3>Validando si el usuario ingreso información</h3>
+    <form onsubmit="validarInfo('numeroDocumento');">
+        Numero de Documento:
+        <input type="text" id="numeroDocumento">
+        <input type="submit" value="Enviar">
+    </form>
+
+    
+    <h3>Llenando campos</h3>
+    <form>
+        Código DANE:
+        <input type="text" id="codigo" onblur="buscarCiudad();">
+        Ciudad:
+        <input type="text"  id="ciudad">
+    </form>
+</body>
+</html>

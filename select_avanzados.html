@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/select_avanzados.css">
+    <title>Selectores avanzados</title>
+</head>
+<body>
+
+    <h1>Selectores avanzados</h1>
+    <h2>Selector   ...... Padre e Hijo</h2>
+    <p>Representa los hijos directos de un elemento</p>
+    <p>Ej:</p>
+    <div class="box_main_1">
+        <div class="general_box box_sub_padre">Box 1
+            <div class="general_box box_sub_hijo">
+                Box 2
+            </div>
+        </div>
+        <div class="general_box">Box 3</div>
+    </div>
+
+    <div class="box_main_2">
+        <div class="general_box">Box 4</div>
+    </div>
+    <br><br>
+
+
+    <h2>Selector   ......  ></h2>
+    <p>Representa los hijos directos de un elemento</p>
+    <p>Ej:</p>
+    <div class="box_main_1">
+        <div class="general_box box_sub_padre">Box 1
+            <div class="general_box box_sub_hijo">
+                Box 2
+            </div>
+        </div>
+        <div class="general_box">Box 3</div>
+    </div>
+    <div class="box_main_2">
+        <div class="general_box">Box 4</div>
+    </div>
+
+
+    <h2>Selector   ......  +</h2>
+    <p>Representa el hermano abyacente</p>
+    <p>Ej:</p>
+    <div class="box_main_5">
+        <div class="general_box  box_gen_1">Box 1</div>
+        <div class="general_box  box_gen_2">Box 2</div>
+        <div class="general_box  box_gen_2">Box 2</div>
+        <div class="general_box  box_gen_2">Box 2</div>
+    </div>
+
+
+    <h2>Selector   ......  ~ </h2>
+    <p>Representa los hermanos de un elemento </p>
+    <p>Ej:</p>
+    <div class="box_main_6">
+        <div class="general_box  box_gen_1_h">Box 1</div>
+        <div class="general_box  box_gen_2_h">Box 2</div>
+        <div class="general_box  box_gen_2_h">Box 2</div>
+        <div class="general_box">Box 4</div>
+        <div class="general_box  box_gen_2_h">Box 2</div>
+    </div>
+
+
+    <h2>Selector   ......  ^ </h2>
+    <p>Representa las calses qie inician por determinados carácteres</p>
+    <p>Ej:</p>
+    <div class="box-main-7">
+        <div class=" box_11 general_box">Box 11</div>
+        <div class=" box_12 general_box">Box 12</div>
+        <div class=" box_13 general_box">Box 13</div>
+        <div class=" box_14 general_box">Box 14</div>
+        <div class=" box-15 general_box">Box 15</div>
+    </div>
+</body>
+</html>

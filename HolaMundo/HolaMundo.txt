@@ -1,0 +1,12 @@
+//Autor: Yeinery Daniela Machado Sotelo
+//Hola Mundo
+
+//Llamo la libreria
+using System; 
+
+class Program{
+   //Llamamos la clase Console
+   //Llamamos el metodo Writeline
+   Console.Writeline("Hola Mundo!!");
+   Console. Readline();
+}

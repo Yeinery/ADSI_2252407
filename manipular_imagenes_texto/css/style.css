@@ -1,0 +1,7 @@
+.img_invisible{
+    display: none;
+}
+img{
+    cursor: pointer;
+    padding: 11px;
+}
