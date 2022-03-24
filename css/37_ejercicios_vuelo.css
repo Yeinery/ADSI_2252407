@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
 }
+.latam{
+    width: 150px;
+    height: 60px;
+    grid-area: latam;
+    margin: 7px;
+}
 .menu{
     background: rgb(16, 0, 79);
     height: 75px;

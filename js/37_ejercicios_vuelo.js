@@ -20,7 +20,15 @@ let horaSalida2Str = horaSalida2.getHours().toString() + ":" + horaSalida2.getMi
 let horaLlegada2 = new Date(2022, 03, 18, 11, 8, 0);
 let horaLlegada2Str = horaLlegada2.getHours().toString() + ":" + horaLlegada2.getMinutes().toString();
 
+let horaSalida3 = new Date(2022, 03, 18, 11, 30, 0);
+let horaSalida3Str = horaSalida3.getHours().toString() + ":" + horaSalida3.getMinutes().toString();
+
+let horaLlegada3 = new Date(2022, 03, 18, 11, 8, 0);
+let horaLlegada3Str = horaLlegada3.getHours().toString() + ":" + horaLlegada3.getMinutes().toString();
+
 let destino1 = "ADZ";
+let destino2= "Ensayo";
+let destino3= "Ensayo2";
 let duracion = "2h-8 min"
 
 let vuelo = [{
@@ -30,11 +38,18 @@ let vuelo = [{
     "duracion": duracion
      },
     {
-     "horaSalida" : horaSalida2Str,
+     "horaSalida" : "10:00?",
      "horaLlegada" : horaLlegada2Str,
-     "destino" : destino1,
+     "destino" : destino2,
      "duracion": duracion
-     }];
+     },
+     {
+     "horaSalida" : horaSalida3Str,
+     "horaLlegada" : horaLlegada3Str,
+     "destino" : destino3,
+     "duracion": duracion
+        }
+    ];
 
  function recorrerVuelos(){
      for (let i=0; i<vuelo.length; i++){
