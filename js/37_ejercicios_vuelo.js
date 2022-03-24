@@ -28,7 +28,7 @@ let horaLlegada3 = new Date(2022, 03, 18, 11, 15, 0);
 let horaLlegada3Str = horaLlegada3.getHours().toString() + ":" + horaLlegada3.getMinutes().toString();
 
 let destino1 = "ADZ";
-let destino2= "OOO";
+let destino2= "CRG";
 let destino3= "MMM";
 let duracion = "2h-8 min"
 
@@ -51,21 +51,21 @@ let vuelo = [{
         "horaLlegada" : horaLlegada3Str,
         "destino" : destino3,
         "duracion": duracion,
-        "valor": "300.000"
+        "valor": "900.000"
     }];
 
  function recorrerVuelos(){
      for (let i=0; i<vuelo.length; i++){
-         let horaSalida = vuelo[i].horaSalida;
-         let horaLlegada = vuelo[i].horaLlegada;
-         let destino = vuelo[i].destino;
-         let duracion = vuelo[i].duracion;
-         let valor = vuelo[i].valor;
-         mostrarInfo(horaSalida, horaLlegada, destino, duracion, valor);
+         let horaSalidaObj = vuelo[i].horaSalida;
+         let horaLlegadaObj = vuelo[i].horaLlegada;
+         let destinoObj = vuelo[i].destino;
+         let duracionObj = vuelo[i].duracion;
+         let valorObj = vuelo[i].valor;
+         mostrarInfo(horaSalidaObj, horaLlegadaObj, destinoObj, duracionObj, valorObj);
      }
  }
 
-function mostrarInfo(){
+function mostrarInfo(horaSalida, horaLlegada, destino, duracion, valor){
     let contenedorPrincipal = document.getElementById("content-main");
     let contenedor = document.createElement("div");
     contenedorPrincipal.appendChild(contenedor);
@@ -77,41 +77,41 @@ function mostrarInfo(){
     encabezado.appendChild(textoEncabezado);
     encabezado.setAttribute("class", "style-encabezado");
 
-    let salida = document.createElement("label");
-    contenedor.appendChild(salida);
-    let textoSalida = document.createTextNode(vuelo[0].horaSalida + " a.m");
-    salida.appendChild(textoSalida);
-    salida.setAttribute("class", "style-salida");
+    let salidaObjElem = document.createElement("label");
+    contenedor.appendChild(salidaObjElem);
+    let textoSalida = document.createTextNode(horaSalida + " a.m");
+    salidaObjElem.appendChild(textoSalida);
+    salidaObjElem.setAttribute("class", "style-salida");
 
-    let llegada = document.createElement("label");
-    contenedor.appendChild(llegada);
-    let textoLlegada = document.createTextNode(vuelo[0].horaLlegada + " a.m");
-    llegada.appendChild(textoLlegada);
-    llegada.setAttribute("class", "style-llegada");
+    let llegadaObjElem = document.createElement("label");
+    contenedor.appendChild(llegadaObjElem);
+    let textoLlegada = document.createTextNode(horaLlegada + " a.m");
+    llegadaObjElem.appendChild(textoLlegada);
+    llegadaObjElem.setAttribute("class", "style-llegada");
 
-    let destino = document.createElement("label");
-    contenedor.appendChild(destino);
-    let textoDestino = document.createTextNode(vuelo[0].destino);
-    destino.appendChild(textoDestino);
-    destino.setAttribute("class", "style-destino");
+    let destinoObjElem = document.createElement("label");
+    contenedor.appendChild(destinoObjElem);
+    let textoDestino = document.createTextNode(destino);
+    destinoObjElem.appendChild(textoDestino);
+    destinoObjElem.setAttribute("class", "style-destino");
   
-    let duracion = document.createElement("label");
-    contenedor.appendChild(duracion);
-    let textoDuracion = document.createTextNode("Duración " + vuelo[0].duracion);
-    duracion.appendChild(textoDuracion);
-    duracion.setAttribute("class", "style-duracion");
+    let duracionObjElem = document.createElement("label");
+    contenedor.appendChild(duracionObjElem);
+    let textoDuracion = document.createTextNode("Duración " + duracion);
+    duracionObjElem.appendChild(textoDuracion);
+    duracionObjElem.setAttribute("class", "style-duracion");
 
-    let textoInfoValor = document.createElement("label")
-    contenedor.appendChild(textoInfoValor);
+    let textoInfoValorObjElem = document.createElement("label")
+    contenedor.appendChild(textoInfoValorObjElem);
     let infoValor = document.createTextNode("Adultos desde ");
-    textoInfoValor.appendChild(infoValor);
-    textoInfoValor.setAttribute("class", "style-infoValor")
+    textoInfoValorObjElem.appendChild(infoValor);
+    textoInfoValorObjElem.setAttribute("class", "style-infoValor")
 
-    let valor = document.createElement("label");
-    contenedor.appendChild(valor);
-    let textvalor = document.createTextNode("COP " + vuelo[0].valor);
-    valor.appendChild(textvalor);
-    valor.setAttribute("class", "style-valor");
+    let valorObjElem = document.createElement("label");
+    contenedor.appendChild(valorObjElem);
+    let textvalor = document.createTextNode("COP " + valor);
+    valorObjElem.appendChild(textvalor);
+    valorObjElem.setAttribute("class", "style-valor");
 
     // let ciudadSalida = document.createElement("label");
     // contenedor.appendChild(ciudadSalida);
@@ -119,9 +119,9 @@ function mostrarInfo(){
     // ciudadSalida.appendChild(textoCiudad);
     // valor.setAttribute("class", "style-ciudadSalida");
 
-    let tipoVuelo = document.createElement("label");
-    contenedor.appendChild(tipoVuelo);
+    let tipoVueloObjElem = document.createElement("label");
+    contenedor.appendChild(tipoVueloObjElem);
     let textTipoVuelo = document.createTextNode("Directo");
-    tipoVuelo.appendChild(textTipoVuelo);
-    tipoVuelo.setAttribute("class", "style-tipoVuelo");
+    tipoVueloObjElem.appendChild(textTipoVuelo);
+    tipoVueloObjElem.setAttribute("class", "style-tipoVuelo");
 }
