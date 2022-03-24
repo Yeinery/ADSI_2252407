@@ -21,10 +21,10 @@ let horaSalida2Str = horaSalida2.getHours().toString() + ":" + horaSalida2.getMi
 let horaLlegada2 = new Date(2022, 03, 18, 01, 15, 0);
 let horaLlegada2Str = horaLlegada2.getHours().toString() + ":" + horaLlegada2.getMinutes().toString();
 
-let horaSalida3 = new Date(2022, 03, 18, 09, 30, 0);
+let horaSalida3 = new Date(2022, 03, 18, 11, 15, 0);
 let horaSalida3Str = horaSalida3.getHours().toString() + ":" + horaSalida3.getMinutes().toString();
 
-let horaLlegada3 = new Date(2022, 03, 18, 11, 15, 0);
+let horaLlegada3 = new Date(2022, 03, 18, 01, 10, 0);
 let horaLlegada3Str = horaLlegada3.getHours().toString() + ":" + horaLlegada3.getMinutes().toString();
 
 let destino1 = "ADZ";
@@ -85,7 +85,7 @@ function mostrarInfo(horaSalida, horaLlegada, destino, duracion, valor){
 
     let llegadaObjElem = document.createElement("label");
     contenedor.appendChild(llegadaObjElem);
-    let textoLlegada = document.createTextNode(horaLlegada + " a.m");
+    let textoLlegada = document.createTextNode(horaLlegada + " p.m");
     llegadaObjElem.appendChild(textoLlegada);
     llegadaObjElem.setAttribute("class", "style-llegada");
 
