@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.main-content{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    background: darkcyan;
+}
+.main-content:hover{
+    width: 400px;
+    background: rebeccapurple;
+}
+.main-content{
+    transition: width 2s, heigth 3s;
+}
+    /* segundo contenedor */
+.main-content2{
+    background: rgb(0, 183, 255);
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.main-content2:hover{
+    background: rebeccapurple;
+    width: 400px;
+}
+.main-content2{
+    width: 200px;
+    height: 200px;
+    background: rgb(3, 73, 46);
+    transition: width 3s;
+    transition-delay: 1s;
+}
+/*Tercer contenedor*/
+.main-content3{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    background: darkcyan;
+}
+.main-content3:hover{
+    width: 400px;
+    height: 400px;
+    transform: rotate(180deg);
+    background: burlywood;
+}
+.main-content3{
+    transition: width 2s, height 2s, transform 2s;
+}
+/* Cuarto contenedor */
+.main-content4{
+    width: 200px;
+    height: 200px;
+    background: rgb(0, 139, 23);
+    margin-bottom: 20px;
+}
+.main-content4:hover{
+    width: 400px;
+    height: 400px;
+    background: rgb(4, 95, 95);
+}
+.main-content4{
+    transition: width 2s, height 4s;
+}
+/* Quinto contendor */
+.main-content5{
+    background: rgb(23, 94, 151);
+    width: 200px;
+    height: 200px;
+    clip-path: circle(50% at top left);
+    transition: width 1500ms;
+}
+.main-content5:hover{
+    width: 400px;
+    background: rgba(39, 68, 107, 0.26);
+    clip-path: circle(80% at center);
+}

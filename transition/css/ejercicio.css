@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.encabezado{
+    background-color: rgb(241, 241, 241);
+    width: 100%;
+    height: 60px;
+    grid-template: "icono  imagen  busqueda";
+}
+input{
+    border: none;
+    margin: 10px;
+    border-radius: 8px;
+    padding: 3px;
+    visibility: hidden;
+    width: 60%;
+    grid-area: busqueda;
+}
+.fa-search{
+    font-size: 1.3em;
+    cursor: pointer;
+    grid-area: busqueda;
+}
+.icono-barra{
+    font-size: 1.8em;
+    margin: 10px;
+    font-weight: bold;
+    grid-area: iconoMenu;
+}
+.logo{
+    width: 60px;
+    height: 40px;
+    grid-area: imagen;
+}
